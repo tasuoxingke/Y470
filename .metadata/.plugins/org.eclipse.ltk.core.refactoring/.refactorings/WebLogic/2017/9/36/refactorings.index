@@ -1,0 +1,10 @@
+1504443177977	Delete element
+1504443184087	Delete element
+1504446644893	Rename package 'com.contronller'
+1504446787534	Delete element
+1504451889355	Encapsulate field 'port'
+1504451895282	Encapsulate field 'webContext'
+1504451899339	Encapsulate field 'log'
+1504452262057	Extract local variable 'connector'
+1504452576543	Extract local variable 'webAppContext'
+1504453344695	Extract local variable 'jettyServer'

@@ -1,0 +1,7 @@
+1516196093651	Extract local variable 'iniSecurityManagerFactory'
+1516200067786	Extract local variable 'instance'
+1516200518770	Extract local variable 'subject'
+1516200606838	Extract local variable 'token'
+1516202296489	Extract local variable 'permittedQuery'
+1516202343338	Extract local variable 'hasRole'
+1516202386960	Extract local variable 'hasRole2'

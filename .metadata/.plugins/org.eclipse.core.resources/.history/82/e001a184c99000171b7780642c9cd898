@@ -1,0 +1,104 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>WebLogic</groupId>
+	<artifactId>WebLogic</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>WebLogic Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+	
+	
+	
+	
+	
+	<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server -->
+<!-- 	<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>jetty-server</artifactId>
+		    <version>9.4.6.v20170531</version>
+		</dependency> -->
+		
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.3.9.RELEASE</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty.aggregate/jetty-all -->
+<dependency>
+		    <groupId>org.eclipse.jetty.aggregate</groupId>
+		    <artifactId>jetty-all</artifactId>
+		    <version>9.4.6.v20170531</version>
+		    <type>pom</type>
+		</dependency>
+			
+	
+		<dependency>
+		    <groupId>jetty</groupId>
+		    <artifactId>jetty-util</artifactId>
+		    <version>6.0.2</version>
+		</dependency>  
+			
+		
+		
+		
+
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency> 
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.8.10</version>
+		</dependency>
+		 <dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.1</version>
+		</dependency> 
+		
+	<dependency>
+<groupId>commons-io</groupId>
+<artifactId>commons-io</artifactId>
+<version>2.2</version>
+</dependency>
+		
+	<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency> 
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+		
+		
+
+
+		
+
+	</dependencies>
+	<build>
+		<finalName>WebLogic</finalName>
+	</build>
+</project>

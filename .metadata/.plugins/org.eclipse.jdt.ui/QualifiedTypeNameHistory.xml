@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.server.Server"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.server.Connector"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.webapp.WebAppContext"/>
+<fullyQualifiedTypeName name="java.awt.datatransfer.StringSelection"/>
+<fullyQualifiedTypeName name="java.net.BindException"/>
+<fullyQualifiedTypeName name="java.awt.Toolkit"/>
+<fullyQualifiedTypeName name="java.awt.datatransfer.Clipboard"/>
+<fullyQualifiedTypeName name="com.server.JettyServer"/>
+<fullyQualifiedTypeName name="javax.servlet.DispatcherType"/>
+<fullyQualifiedTypeName name="org.apache.shiro.config.IniSecurityManagerFactory"/>
+<fullyQualifiedTypeName name="org.apache.shiro.SecurityUtils"/>
+<fullyQualifiedTypeName name="org.apache.shiro.authc.UsernamePasswordToken"/>
+<fullyQualifiedTypeName name="org.apache.shiro.authc.AuthenticationException"/>
+<fullyQualifiedTypeName name="org.apache.shiro.util.Assert"/>
+</qualifiedTypeNameHistroy>

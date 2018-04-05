@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\JavaTool\jre" version="1.8.0_144">
+<bootpath>
+<entry path="D:\JavaTool\jre\lib\resources.jar"/>
+<entry path="D:\JavaTool\jre\lib\rt.jar"/>
+<entry path="D:\JavaTool\jre\lib\sunrsasign.jar"/>
+<entry path="D:\JavaTool\jre\lib\jsse.jar"/>
+<entry path="D:\JavaTool\jre\lib\jce.jar"/>
+<entry path="D:\JavaTool\jre\lib\charsets.jar"/>
+<entry path="D:\JavaTool\jre\lib\jfr.jar"/>
+<entry path="D:\JavaTool\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\JavaTool\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\JavaTool\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\JavaTool\JRE-2" version="1.8.0_144">
+<bootpath>
+<entry path="D:\JavaTool\JRE-2\lib\resources.jar"/>
+<entry path="D:\JavaTool\JRE-2\lib\rt.jar"/>
+<entry path="D:\JavaTool\JRE-2\lib\sunrsasign.jar"/>
+<entry path="D:\JavaTool\JRE-2\lib\jsse.jar"/>
+<entry path="D:\JavaTool\JRE-2\lib\jce.jar"/>
+<entry path="D:\JavaTool\JRE-2\lib\charsets.jar"/>
+<entry path="D:\JavaTool\JRE-2\lib\jfr.jar"/>
+<entry path="D:\JavaTool\JRE-2\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\JavaTool\JRE-2\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\JavaTool\JRE-2\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\JavaTool\jdk" version="1.8.0_144">
+<bootpath>
+<entry path="E:\JavaTool\jdk\jre\lib\resources.jar"/>
+<entry path="E:\JavaTool\jdk\jre\lib\rt.jar"/>
+<entry path="E:\JavaTool\jdk\jre\lib\sunrsasign.jar"/>
+<entry path="E:\JavaTool\jdk\jre\lib\jsse.jar"/>
+<entry path="E:\JavaTool\jdk\jre\lib\jce.jar"/>
+<entry path="E:\JavaTool\jdk\jre\lib\charsets.jar"/>
+<entry path="E:\JavaTool\jdk\jre\lib\jfr.jar"/>
+<entry path="E:\JavaTool\jdk\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\JavaTool\jdk\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\JavaTool\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\JavaTool" version="1.8.0_144">
+<bootpath>
+<entry path="D:\JavaTool\jre\lib\resources.jar"/>
+<entry path="D:\JavaTool\jre\lib\rt.jar"/>
+<entry path="D:\JavaTool\jre\lib\sunrsasign.jar"/>
+<entry path="D:\JavaTool\jre\lib\jsse.jar"/>
+<entry path="D:\JavaTool\jre\lib\jce.jar"/>
+<entry path="D:\JavaTool\jre\lib\charsets.jar"/>
+<entry path="D:\JavaTool\jre\lib\jfr.jar"/>
+<entry path="D:\JavaTool\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\JavaTool\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\JavaTool\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

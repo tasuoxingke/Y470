@@ -1,0 +1,6 @@
+spring.datasource.url=jdbc:mysql://localhost/helloworld?useUnicode=true&characterEncode=utf8
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.initialize=false
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+mybatis.mapper-locations=classpath:mapper/*.xml

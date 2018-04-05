@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="BootDemo"/>
+<aop-project name="BootDemo-1000Phone"/>
+</aop-reference-model>
