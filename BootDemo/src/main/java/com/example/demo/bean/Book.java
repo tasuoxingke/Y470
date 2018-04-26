@@ -4,7 +4,7 @@ public class Book {
 
 	private Integer id;
 	private String bookName;
-	private String publishor;
+	private String publisher;
 	
 	
 	public Integer getId() {
@@ -19,11 +19,11 @@ public class Book {
 	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
-	public String getPublishor() {
-		return publishor;
+	public String getPublisher() {
+		return publisher;
 	}
-	public void setPublishor(String publishor) {
-		this.publishor = publishor;
+	public void setPublisher(String publisher) {
+		this.publisher = publisher;
 	}
 	
 	

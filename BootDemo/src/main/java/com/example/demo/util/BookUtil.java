@@ -12,7 +12,7 @@ public class BookUtil {
 		if(StringUtils.isEmpty(book.getBookName())) {
 			return false;
 		}
-		if(StringUtils.isEmpty(book.getPublishor())) {
+		if(StringUtils.isEmpty(book.getPublisher())) {
 			return false;
 		}
 		if(book.getId()==null) {
@@ -27,7 +27,7 @@ public class BookUtil {
 		if(StringUtils.isEmpty(book.getBookName())) {
 			return false;
 		}
-		if(StringUtils.isEmpty(book.getPublishor())) {
+		if(StringUtils.isEmpty(book.getPublisher())) {
 			return false;
 		}
 		return true;

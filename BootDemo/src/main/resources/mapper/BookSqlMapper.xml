@@ -3,14 +3,35 @@
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.demo.dao.BookDao" >
 	<resultMap id="bookBase" type="com.example.demo.bean.Book" >
-		<id property ="id" column="id" jdbcType="Integer"/>
+		<id property ="id" column="id" jdbcType="INTEGER"/>
 		<result property ="id" column="id" jdbcType="INTEGER"/>
 		<result property ="book_name" column="bookName" jdbcType="VARCHAR"/>
-		<result property ="publishor" column="publishor" jdbcType="VARCHAR"/>		
+		<result property ="publisher" column="publishor" jdbcType="VARCHAR"/>		
 	</resultMap>
 
-
-	<sql id="baseSql">
+	<!-- sql  -->
+	<sql id="bookSql">
 		 id,book_name,publishor
 	</sql>
+	
+	<!-- 插入 -->
+	<insert id="add" parameterType="com.example.demo.bean.Book">
+		insert into book(book_name,publishor) value (#{bookName},#{publisher})
+	</insert>
+	<!-- 更新 -->
+	<update id="update" parameterType="com.example.demo.bean.Book">
+	
+	</update>
+	<!-- 批量删除 -->
+	<delete id="delete" parameterType="java.util.List">
+		
+	</delete>
+	<!-- 分页查询 -->
+	<select id="selectBooksAll" resultMap="bookBase" parameterType="com.example.demo.bean.PageInfo">
+	
+	</select>
+	<!-- 模糊查询 -->
+	<select id="selectBooksLike" resultMap="bookBase" parameterType="com.example.demo.bean.Book">
+	
+	</select>
 </mapper>

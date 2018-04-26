@@ -2,6 +2,13 @@ server:
  context-path: /bookshop
 
 spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+    
+    
+
   datasource:
     url: jdbc:mysql://localhost:3306/xuexi
     username: root
@@ -12,9 +19,10 @@ spring:
     
     
 mybatis:
+  type-aliases-package: com.example.demo.bean
   mapper-locations: classpath:mapper/*.xml
 
 logging:
   level:
-    root: info
+    root: debug
     
