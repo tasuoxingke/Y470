@@ -3,13 +3,17 @@ package com.example.demo.event;
 import org.springframework.context.ApplicationEvent;
 
 /**
- * 自定义事件
+ * 自定义事件，继承ApplicationEvent
  * @author mhxy0
  *
  */
 public class MyEvent extends ApplicationEvent {
 
-	// 消息
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	// 消息内容
 	private String msg;
 	
 	public MyEvent(Object source,String msg) {
