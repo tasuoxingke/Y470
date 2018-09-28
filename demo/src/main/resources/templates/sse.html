@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>服务端定时推送学习sse</title>
+    <script  src="/static/js/jquery-3.3.1.js"></script>
+    <script>
+        // 获取 浏览器 的 EventSource 对象 
+        if (!!window.EventSource){
+            var source = new EventSource('push');
+            var s = '';
+            source.addEventListener('message',function (e) {
+                s+=e.data+'<br/>';
+                //$("textDiv").html(s);
+                document.getElementById("textDiv").innerHTML=s;
+            });
+            source.addEventListener('open',function (e) {
+                console.log('链接打开');
+            },false);
+            source.addEventListener('error',function (e) {
+                if(e.readyState==source.CLOSED){
+                    console.log('链接关闭了');
+                }else{
+                    console.log(e.readyState);
+                }
+            },false);
+        }else{
+            alert('你的浏览器不支持sse，请下载谷歌浏览器或者火狐浏览器');
+        }
+
+    </script>
+</head>
+<body>
+    <div id="textDiv" ></div>
+
+</body>
+</html>
