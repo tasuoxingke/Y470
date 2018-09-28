@@ -1,0 +1,20 @@
+
+server:
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  port: 8888
+spring:
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
+
+  thymeleaf:
+    cache: false
